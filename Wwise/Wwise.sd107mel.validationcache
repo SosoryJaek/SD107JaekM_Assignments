@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.wproj" DateLow="1695092708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.sd107mel.wsettings" DateLow="1695170102" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Triggers\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Switches\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
@@ -27,4 +28,5 @@
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Attenuations\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Actor-Mixer Hierarchy\ContinuousSwitchContainer.wwu" DateLow="1695170101" DateHigh="0"/>
 </ValidationCache>

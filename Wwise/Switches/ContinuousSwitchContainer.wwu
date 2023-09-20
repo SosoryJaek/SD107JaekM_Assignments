@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D64C3261-E660-4BBF-AEB5-B4F66E41350F}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="ContinuousSwitchContainer" ID="{D64C3261-E660-4BBF-AEB5-B4F66E41350F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Motorcycle_Velocity" ID="{AB927D05-DE60-4FBD-8817-C12A338F456A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Idle" ID="{387322D1-C432-441E-9449-B22C366FD4FE}"/>
+						<Switch Name="Medium" ID="{7FC70B67-72E7-4869-B926-918EF2975E21}"/>
+						<Switch Name="Fast" ID="{7A5992E9-06DE-47BE-A436-CFE74A20A851}"/>
+						<Switch Name="Slow" ID="{2B421D89-EDA8-4423-B76C-B5544A467758}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
