@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.wproj" DateLow="1695092708" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.sd107mel.wsettings" DateLow="1695170102" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.wproj" DateLow="1695179255" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Wwise.sd107mel.wsettings" DateLow="1695181810" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Triggers\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Switches\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Switches\Default Work Unit.wwu" DateLow="1695181769" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Switches\ContinuousSwitchContainer.wwu" DateLow="1695181781" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\States\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1695181769" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Queries\Factory Queries.wwu" DateLow="1690999559" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Queries\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
@@ -18,7 +19,8 @@
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Events\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Events\Default Work Unit.wwu" DateLow="1695181480" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Events\ContinuousSwitchContainer.wwu" DateLow="1695181801" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Effects\Factory Effects.wwu" DateLow="1690999559" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Effects\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
@@ -28,5 +30,5 @@
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Attenuations\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695092708" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Actor-Mixer Hierarchy\ContinuousSwitchContainer.wwu" DateLow="1695170101" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\sd107mel\Documents\Assignments\Wwise\Actor-Mixer Hierarchy\ContinuousSwitchContainer.wwu" DateLow="1695181769" DateHigh="0"/>
 </ValidationCache>

@@ -3,12 +3,38 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{EB7624DF-30FF-4EDB-8426-D0BCF864175D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+				<Bus Name="Master" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{096C1384-C6DF-4429-8BE3-81B2AC453F1F}" WorkUnitID="{9060E444-8422-428B-B606-763775C7FA4A}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Processing" ID="{DE5E6EBF-EBCF-4758-A64B-4046A7B1E601}">
+							<ChildrenList>
+								<Bus Name="Reverbs" ID="{E3D1FCD9-AA45-4CA4-A405-8B06A105B0BB}">
+									<ChildrenList>
+										<AuxBus Name="Reverb_Hall" ID="{F6B6E191-87B6-41D7-926D-2E7F71687AB4}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX" ID="{636D275F-052D-4F0E-B5DE-8DA2AA6F0529}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Hall" ID="{F6B6E191-87B6-41D7-926D-2E7F71687AB4}" WorkUnitID="{EB7624DF-30FF-4EDB-8426-D0BCF864175D}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

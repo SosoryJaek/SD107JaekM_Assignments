@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{73F83F50-97AE-4BC0-A0AE-27530277EB47}" SchemaVersion="110">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{73F83F50-97AE-4BC0-A0AE-27530277EB47}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{73F83F50-97AE-4BC0-A0AE-27530277EB47}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="RampDown" ID="{36F9EE9F-CFA7-4E10-BD76-5A1F8FC4CD71}" ShortID="330321184"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

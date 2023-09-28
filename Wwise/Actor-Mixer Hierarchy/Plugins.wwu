@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{01F686E9-40C0-4567-B05F-B4D91601D46B}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Plugins" ID="{01F686E9-40C0-4567-B05F-B4D91601D46B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="5"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="SynthOne" ID="{0AA89018-6226-4B81-A0CE-945C2869E7D8}" ShortID="293901562">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C38084B-A2F3-49FE-B061-BB22E4C306BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB7624DF-30FF-4EDB-8426-D0BCF864175D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Synth One" ID="{50B2B9F1-EFC4-4704-873B-792C7D89D5AD}" ShortID="910986963" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{AB236C89-B9C0-4BD5-8C28-ECF683F3A01D}" ShortID="75400797">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Osc1Transpose"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RampDown" ID="{36F9EE9F-CFA7-4E10-BD76-5A1F8FC4CD71}" WorkUnitID="{73F83F50-97AE-4BC0-A0AE-27530277EB47}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{AF43318E-D93D-4C37-B692-4C69FD219408}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-7200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{B025D20B-7410-4F4C-86ED-11CBE7AAC03C}" ShortID="448858016">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Osc2Transpose"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RampDown" ID="{36F9EE9F-CFA7-4E10-BD76-5A1F8FC4CD71}" WorkUnitID="{73F83F50-97AE-4BC0-A0AE-27530277EB47}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{B8CBE5A7-D5C4-4E5F-977B-90F8049ADC69}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-7200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Synth One" ID="{50B2B9F1-EFC4-4704-873B-792C7D89D5AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wind" ID="{B4080FD5-A348-40B8-AAD6-5D15DCB8B92C}" ShortID="131535779">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C38084B-A2F3-49FE-B061-BB22E4C306BB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB7624DF-30FF-4EDB-8426-D0BCF864175D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Soundseed Air Wind" ID="{ABA8DFAB-0C94-477A-B121-AA4DEFEF29EA}" ShortID="690887701" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+							<PropertyList>
+								<Property Name="AverageVelocity" Type="Real32" Value="-1210"/>
+								<Property Name="QFactorScale" Type="Real32" Value="0.55"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<PluginData/>
+							<PluginInnerObjectList>
+								<List Name="Deflectors">
+									<PluginInnerObject Name="" ID="{26887324-EE18-40B1-93A3-71931B7CB2E7}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Soundseed Air Wind" ID="{ABA8DFAB-0C94-477A-B121-AA4DEFEF29EA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Whoosh" ID="{2CC25EA0-3147-4BF6-9116-A2CD10735F31}" ShortID="1014847273">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C38084B-A2F3-49FE-B061-BB22E4C306BB}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Delay (Custom)" ID="{ACCEAAAE-E181-4067-A053-852382227D8C}" ShortID="1010477056" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect2" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="EQ_Generic_LowCut" ID="{D764B56A-FAC8-4428-B7AA-8D00673827AA}" WorkUnitID="{175E4762-431E-424F-9E42-9B3EE004805F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB7624DF-30FF-4EDB-8426-D0BCF864175D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Soundseed Air Woosh" ID="{B14B7C7F-D5CC-47E6-AEE2-76595C8CBDDB}" ShortID="898222627" PluginName="SoundSeed Air Woosh" CompanyID="0" PluginID="120">
+							<PropertyList>
+								<Property Name="SpeedAutomate" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<PluginData>
+	<WooshData>
+		<CurveList Version="1">
+			<CurveInfo Name="Speed">
+				<Curve Name="" ID="{CA84AFF6-3CE2-4AAD-AA92-A5EFFFFE8D48}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.06596</XPos>
+							<YPos>100</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.17889</XPos>
+							<YPos>47.74094</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.5</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+		<Path Version="1">
+			<Path2D Name="" ID="{32359BF3-5B7C-4F7F-ABD2-509D51095A9F}">
+				<PropertyList>
+					<Property Name="LinearTime" Type="bool" Value="False"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>12</Flags>
+						<Time>0</Time>
+					</Point>
+				</PointList>
+			</Path2D>
+		</Path>
+	</WooshData>
+</PluginData>
+							<PluginInnerObjectList>
+								<List Name="Deflectors">
+									<PluginInnerObject Name="" ID="{50EC7815-FA40-4A29-93CD-769A8D27A767}" PluginName="Deflector" CompanyID="0" PluginID="122"/>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Soundseed Air Woosh" ID="{B14B7C7F-D5CC-47E6-AEE2-76595C8CBDDB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
